@@ -1,4 +1,3 @@
-
 /* Yusuf Akcesme 03.06.2022 */
 /* reset */
 * {
@@ -37,9 +36,9 @@ body {
 .top-line {
   width: 100%;
   height: 4px;
-  background-color: #0078D7;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0078D7), color-stop(74%, #0078D7));
-  background-image: linear-gradient(to right, #0078D7 0%, #0078D7 74%);
+  background-color: #045de9;
+  background-image: -webkit-gradient(linear, left top, right top, from(#045de9), color-stop(74%, #09c6f9));
+  background-image: linear-gradient(to right, #045de9 0%, #09c6f9 74%);
 }
 
 .top-bar {
@@ -128,7 +127,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1D66FF;
+  background: #787da7;
   margin-right: 10px;
 }
 
@@ -139,7 +138,7 @@ body {
 header {
   height: 74px;
   border-bottom: 1px solid #eee;
-  background: #0078D7;
+  background: #fff;
   -webkit-transition: .3s all;
   transition: .3s all;
 }
@@ -193,7 +192,7 @@ header .container nav > ul > li > a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #F5F5F5;
+  color: #1e266d;
   font-weight: 500;
   font-size: 15px;
   -webkit-transition: 0.2s all;
@@ -202,8 +201,8 @@ header .container nav > ul > li > a {
 
 header .container nav > ul > li:hover > a {
   background: rgba(29, 102, 255, 0.1);
-  color: #F5F5F5;
-  border-bottom: 2px solid #F5F5F5;
+  color: #1d66ff;
+  border-bottom: 2px solid #1d66ff;
 }
 
 header .container nav > ul > li:hover .mega-menu {
@@ -213,7 +212,6 @@ header .container nav > ul > li:hover .mega-menu {
 
 header .container nav > ul > li .mega-menu {
   position: fixed;
-  
   top: 114px;
   left: 0;
   right: 0;
@@ -323,7 +321,7 @@ header .container .header-buttons {
 }
 
 header .container .header-buttons a {
-  color: #F5F5F5;
+  color: #1d66ff;
   font-size: 15px;
   font-weight: 500;
 }
@@ -332,7 +330,7 @@ header .container .header-buttons a.main-btn {
   padding: 0 20px;
   height: 45px;
   border-radius: 45px;
-  background: #F5F5F5;
+  background: #1d66ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,7 +340,7 @@ header .container .header-buttons a.main-btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #0078D7;
+  color: #fff;
   font-size: 15px;
   font-weight: 500;
   margin-left: 20px;
@@ -352,7 +350,7 @@ header .container .header-buttons a.main-btn {
   padding: 0 20px;
   height: 45px;
   border-radius: 45px;
-  background: #0078D7;
+  background: #1d66ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,7 +369,7 @@ header .container .header-buttons a.main-btn {
 }
 
 .main-btn.border-btn {
-  border: 1px solid #0078D7;
+  border: 1px solid #1d66ff;
   color: #1d66ff;
   background: transparent;
 }
@@ -481,7 +479,7 @@ header .container .header-buttons a.main-btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(../images/abstract.svg);
+  background: url(../fonts/images-abstract.svg);
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: center center;
@@ -1651,7 +1649,7 @@ footer .footer-bottom .container .links a:first-child::before {
 .user-sign-page .user-sign-image {
   width: 100%;
   height: 100vh;
-  background-image: url(../images/loginbg.jpg);
+  background-image: url(../images/images-loginbg.jpg);
   position: relative;
 }
 
@@ -1943,8 +1941,8 @@ footer .footer-bottom .container .links a:first-child::before {
   width: 100%;
   border-radius: 20px;
   padding: 30px;
-  background: url(../images/cabstract.png), -webkit-gradient(linear, left top, right bottom, from(#5b8cf4), to(#1d66ff));
-  background: url(../images/cabstract.png), linear-gradient(to right bottom, #5b8cf4, #1d66ff);
+  background: url(../images/images-cabstract.png), -webkit-gradient(linear, left top, right bottom, from(#5b8cf4), to(#1d66ff));
+  background: url(../images/images-cabstract.png), linear-gradient(to right bottom, #5b8cf4, #1d66ff);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2472,8 +2470,8 @@ footer .footer-bottom .container .links a:first-child::before {
   top: 10px;
   width: 100%;
   border-radius: 10px;
-  background: url(../images/cabstract.png), -webkit-gradient(linear, left top, right bottom, from(#5b8cf4), to(#1d66ff));
-  background: url(../images/cabstract.png), linear-gradient(to right bottom, #5b8cf4, #1d66ff);
+  background: url(../images/images-cabstract.png), -webkit-gradient(linear, left top, right bottom, from(#5b8cf4), to(#1d66ff));
+  background: url(../images/images-cabstract.png), linear-gradient(to right bottom, #5b8cf4, #1d66ff);
   padding: 20px;
   background-size: cover;
   background-position: center center;
